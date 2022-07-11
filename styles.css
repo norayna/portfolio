@@ -18,7 +18,7 @@ body {
 	background-color: rgba(255, 220, 255, 0.9);
 	padding: 30px;
 	border-radius: 40px;
-	box-shadow: rgba(50, 0, 20, 0.17) 0px -23px 25px 0px inset, rgba(50, 0, 20, 0.15) 0px -36px 30px 0px inset, rgba(50, 0, 20, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+	box-shadow: rgba(211, 0, 85, 0.17) 0px -23px 25px 0px inset, rgba(124, 0, 50, 0.15) 0px -36px 30px 0px inset, rgba(86, 0, 34, 0.1) 0px -79px 40px 0px inset, rgba(67, 44, 44, 0.06) 0px 2px 1px, rgba(37, 30, 30, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 main {
@@ -37,4 +37,22 @@ main {
 
 .feed-item-img {
 	width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		padding: 30px;
+		display: flex;
+		gap: 20px;
+		flex-direction: column;
+		background-size: 60px;
+	}
+
+	.about {
+		position: static;
+	}
+
+	.feed-item {
+		padding: 30px;
+	}
 }
