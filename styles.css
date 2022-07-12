@@ -46,7 +46,7 @@ main {
 		display: flex;
 		gap: 20px;
 		flex-direction: column;
-		background-size: 150px;
+		background-size: 20%;
 	}
 
 	.about {
