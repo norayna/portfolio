@@ -57,7 +57,7 @@ main {
 		display: flex;
 		gap: 20px;
 		flex-direction: column;
-		background-size: 20%;
+		background-size: 25%;
 	}
 
 	.about {
